@@ -2,6 +2,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 /* font-family: "Roboto", sans-serif; */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* -------------------------Shared Styles Starts Here-------------------------*/
 .text-center {
   text-align: center;
+}
+.display-flex {
+  display: flex;
+}
+/* -------------------------Shared Styles Ends Here-------------------------*/
+
+/* ----------Navbar Styles Added---------- */
+nav {
+  border: 1px solid red;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 175px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* -----Navbar Left Content----- */
+.nav-logo {
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 35px;
+  color: rgb(28, 28, 28);
+}
+
+/* -----Navbar Right Content----- */
+.nav-links {
+  list-style: none;
+  gap: 24px;
+}
+.nav-link {
+  text-decoration: none;
+  color: rgb(28, 28, 28);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 19px;
 }
