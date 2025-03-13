@@ -1,0 +1,67 @@
+/* ------------------------------Responsive Media Query Added------------------------------ */
+
+/* --------------------Mobile/Small Device Responsive Added-------------------- */
+@media only screen and (max-width: 576px) {
+  /* ----------Navbar Mobile/Small Device Responsive Added---------- */
+  nav {
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 75px;
+  }
+
+  /* ----------Banner Section Mobile/Small Device Responsive Added---------- */
+  .banner-section {
+    margin-bottom: 75px;
+  }
+  /* -----Left Banner Container----- */
+  .left-banner-container {
+    width: 100%;
+  }
+  .small-title p {
+    font-size: 0.9rem;
+  }
+  hr {
+    width: 50%;
+  }
+  .section-title h2 {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+
+  /* -----Right Banner Container----- */
+  .right-banner-container {
+    margin-right: 10px;
+  }
+
+  .right-banner-container,
+  .one h3,
+  .two h3,
+  .three h3 {
+    font-size: 1rem;
+  }
+}
+
+/* --------------------Tablet/Medium Device Responsive Added-------------------- */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  /* ----------Navbar Tablet/Medium Device Responsive Added---------- */
+  nav {
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 100px;
+  }
+
+  /* ----------Banner Section Tablet/Medium Device Responsive Added---------- */
+  .banner-section {
+    margin-bottom: 100px;
+  }
+
+  /* -----Left Banner Container----- */
+  .section-title h2 {
+    font-size: 2.5rem;
+    line-height: 50px;
+  }
+
+  /* -----Right Banner Container----- */
+  .right-banner-container {
+    margin-right: 15px;
+  }
+}
