@@ -211,3 +211,59 @@ hr {
 .e-commerce img {
   width: 100%;
 }
+
+/* ----------Footer Section Styles Added---------- */
+.footer {
+  border: 1px solid blue;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: rgb(235, 235, 235);
+  padding: 1px;
+}
+.footer-container {
+  border: 1px solid red;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.footer-container .small-title p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 19px;
+  color: rgb(28, 28, 28);
+}
+.footer-container hr {
+  width: 881px;
+  border-top: 1px solid rgb(28, 28, 28);
+}
+.footer-container .small-title-container {
+  margin-top: 150px;
+}
+
+/* -----Horizontal Line styles----- */
+.hr-line div {
+  border-top: 1px solid rgb(145, 145, 145);
+  margin-top: 150px;
+}
+
+.footer-social {
+  border: 1px solid red;
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-social p {
+  color: rgb(145, 145, 145);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 19px;
+}
+.footer-social div {
+  display: flex;
+  gap: 40px;
+}
+.footer-social a {
+  color: rgb(28, 28, 28);
+}

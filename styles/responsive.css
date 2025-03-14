@@ -92,6 +92,31 @@
   .e-commerce img {
     width: auto;
   }
+
+  /* ----------Footer ---------- */
+  .hr-line div {
+    margin-top: 75px;
+  }
+  .footer hr {
+    display: none;
+  }
+  .footer-container .small-title-container {
+    margin-top: 75px;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container .section-title h2 {
+    text-align: center;
+  }
+  .footer-social {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+  }
+  .footer-social div {
+    gap: 30px;
+  }
 }
 
 /* --------------------Tablet/Medium Device Responsive Added-------------------- */
@@ -147,5 +172,18 @@
     gap: 50px;
     margin-top: 25px;
     margin-bottom: 100px;
+  }
+
+  /* ----------Footer ---------- */
+  .footer hr {
+    width: 75%;
+  }
+  .hr-line div {
+    margin-top: 100px;
+  }
+  .footer-social {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
 }
