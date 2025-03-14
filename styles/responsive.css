@@ -3,6 +3,9 @@
 /* --------------------Mobile/Small Device Responsive Added-------------------- */
 @media only screen and (max-width: 576px) {
   /* ----------Navbar Mobile/Small Device Responsive Added---------- */
+  header {
+    max-width: 100%;
+  }
   nav {
     flex-direction: column;
     gap: 25px;
@@ -14,6 +17,9 @@
 
   /* ----------Banner Section Mobile/Small Device Responsive Added---------- */
   .banner-section {
+    max-width: 100%;
+  }
+  .banner-container {
     margin-bottom: 75px;
   }
 
@@ -93,7 +99,7 @@
     width: auto;
   }
 
-  /* ----------Footer ---------- */
+  /* ----------Footer Section Mobile/Small Device Responsive Added---------- */
   .hr-line div {
     margin-top: 75px;
   }
@@ -122,6 +128,9 @@
 /* --------------------Tablet/Medium Device Responsive Added-------------------- */
 @media only screen and (min-width: 577px) and (max-width: 992px) {
   /* ----------Navbar Tablet/Medium Device Responsive Added---------- */
+  header {
+    max-width: 100%;
+  }
   nav {
     padding: 0px 10px 0px 10px;
     margin-bottom: 100px;
@@ -129,6 +138,9 @@
 
   /* ----------Banner Section Tablet/Medium Device Responsive Added---------- */
   .banner-section {
+    max-width: 100%;
+  }
+  .banner-container {
     margin-bottom: 100px;
   }
 
@@ -137,9 +149,7 @@
     font-size: 2.5rem;
     line-height: 50px;
   }
-  hr {
-    width: 100%;
-  }
+
   /* -----Right Banner Container----- */
   .right-banner-container {
     margin-right: 15px;
@@ -174,7 +184,7 @@
     margin-bottom: 100px;
   }
 
-  /* ----------Footer ---------- */
+  /* ----------Footer Section Tablet/Medium Device Responsive Added---------- */
   .footer hr {
     width: 75%;
   }

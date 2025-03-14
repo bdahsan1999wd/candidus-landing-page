@@ -25,8 +25,13 @@ body {
 /* -------------------------Shared Styles Ends Here-------------------------*/
 
 /* ----------Navbar Styles Added---------- */
+header {
+  width: 1440px;
+  margin: 0 auto;
+  background-color: rgb(235, 235, 235);
+  padding: 1px;
+}
 nav {
-  border: 1px solid blue;
   max-width: 1100px;
   margin: 0 auto;
   margin-top: 25px;
@@ -58,7 +63,12 @@ nav {
 
 /* ----------Banner Section Styles Added---------- */
 .banner-section {
-  border: 1px solid blue;
+  width: 1440px;
+  margin: 0 auto;
+  background-color: rgb(235, 235, 235);
+  padding: 1px;
+}
+.banner-container {
   max-width: 1100px;
   margin: 0 auto;
   margin-bottom: 175px;
@@ -127,7 +137,6 @@ hr {
 
 /* ----------Photo Gallery Section Styles Added---------- */
 .photo-gallery-section {
-  border: 1px solid blue;
   max-width: 1440px;
   margin: 0 auto;
   display: grid;
@@ -142,14 +151,12 @@ hr {
 
 /* ----------Creativity and Design Section Styles Added---------- */
 .creativity-design-section {
-  border: 1px solid blue;
   max-width: 1440px;
   margin: 0 auto;
   background-color: rgb(235, 235, 235);
   padding: 1px;
 }
 .creativity-section-container {
-  border: 1px solid red;
   max-width: 1110px;
   margin: 0 auto;
 }
@@ -174,14 +181,12 @@ hr {
 
 /* ----------Our Expertise and Services Section Styles Added---------- */
 .expertise-services-section {
-  border: 1px solid blue;
   max-width: 1440px;
   margin: 0 auto;
   background-color: rgb(30, 30, 30);
   padding: 1px;
 }
 .expertise-services-container {
-  border: 1px solid red;
   max-width: 1110px;
   margin: 0 auto;
 }
@@ -214,14 +219,12 @@ hr {
 
 /* ----------Footer Section Styles Added---------- */
 .footer {
-  border: 1px solid blue;
   max-width: 1440px;
   margin: 0 auto;
   background-color: rgb(235, 235, 235);
   padding: 1px;
 }
 .footer-container {
-  border: 1px solid red;
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -246,7 +249,6 @@ hr {
 }
 
 .footer-social {
-  border: 1px solid red;
   width: 1100px;
   margin: 0 auto;
   margin-top: 75px;
