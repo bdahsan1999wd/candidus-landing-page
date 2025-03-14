@@ -8,6 +8,9 @@
     gap: 25px;
     margin-bottom: 75px;
   }
+  .nav-links {
+    gap: 15px;
+  }
 
   /* ----------Banner Section Mobile/Small Device Responsive Added---------- */
   .banner-section {
@@ -62,6 +65,33 @@
   .creativity-section-container .section-title {
     margin-bottom: 75px;
   }
+
+  /* ----------Our Expertise and Services Section Mobile/Small Device Responsive Added---------- */
+  .expertise-services-container hr {
+    display: none;
+  }
+  .expertise-services-container .small-title-container {
+    margin-top: 75px;
+    justify-content: center;
+    align-items: center;
+  }
+  .expertise-services-container .section-title h2 {
+    text-align: center;
+  }
+  .e-commerce-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .e-commerce {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+    margin-top: 25px;
+    margin-bottom: 75px;
+  }
+  .e-commerce img {
+    width: auto;
+  }
 }
 
 /* --------------------Tablet/Medium Device Responsive Added-------------------- */
@@ -82,7 +112,9 @@
     font-size: 2.5rem;
     line-height: 50px;
   }
-
+  hr {
+    width: 100%;
+  }
   /* -----Right Banner Container----- */
   .right-banner-container {
     margin-right: 15px;
@@ -101,6 +133,19 @@
     margin-top: 100px;
   }
   .creativity-section-container .section-title {
+    margin-bottom: 100px;
+  }
+
+  /* ----------Our Expertise and Services Section Tablet/Medium Device Responsive Added---------- */
+  .expertise-services-container hr {
+    width: 75%;
+  }
+  .expertise-services-container .small-title-container {
+    margin-top: 100px;
+  }
+  .e-commerce {
+    gap: 50px;
+    margin-top: 25px;
     margin-bottom: 100px;
   }
 }
