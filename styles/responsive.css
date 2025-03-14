@@ -13,7 +13,7 @@
   .banner-section {
     margin-bottom: 75px;
   }
-  
+
   /* -----Left Banner Container----- */
   .left-banner-container {
     width: 100%;
@@ -44,6 +44,22 @@
   /* ----------Photo Gallery Section Mobile/Small Device Responsive Added---------- */
   .photo-gallery-section {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* ---------- Creativity and Design Section Mobile/Small Device Responsive Added ---------- */
+  .creativity-section-container hr {
+    display: none;
+  }
+  .creativity-section-container .small-title-container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+  }
+  .creativity-section-container .section-title h2 {
+    text-align: center;
+    line-height: 47px;
+  }
+  .creativity-section-container .section-title {
     margin-bottom: 75px;
   }
 }
@@ -75,6 +91,16 @@
   /* ----------Photo Gallery Section Tablet/Medium Device Responsive Added---------- */
   .photo-gallery-section {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* ---------- Creativity and Design Section Tablet/Medium Device Responsive Added ---------- */
+  .creativity-section-container hr {
+    width: 75%;
+  }
+  .creativity-section-container .small-title-container {
+    margin-top: 100px;
+  }
+  .creativity-section-container .section-title {
     margin-bottom: 100px;
   }
 }

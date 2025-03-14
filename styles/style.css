@@ -130,7 +130,6 @@ hr {
   border: 1px solid blue;
   max-width: 1440px;
   margin: 0 auto;
-  margin-bottom: 170px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -139,4 +138,36 @@ hr {
 }
 .photo-gallery-section img {
   width: 100%;
+}
+
+/* ----------Creativity and Design Section Styles Added---------- */
+.creativity-design-section {
+  border: 1px solid blue;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: rgb(235, 235, 235);
+  padding: 1px;
+}
+.creativity-section-container {
+  border: 1px solid red;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.creativity-section-container .section-title {
+  margin-bottom: 150px;
+}
+.creativity-section-container .small-title p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 19px;
+  color: rgb(28, 28, 28);
+}
+.creativity-section-container hr {
+  width: 945px;
+  margin-left: 7px;
+  border: none;
+  border-top: 1px solid rgb(28, 28, 28);
+}
+.creativity-section-container .small-title-container {
+  margin-top: 150px;
 }
