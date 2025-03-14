@@ -13,6 +13,7 @@
   .banner-section {
     margin-bottom: 75px;
   }
+  
   /* -----Left Banner Container----- */
   .left-banner-container {
     width: 100%;
@@ -39,6 +40,12 @@
   .three h3 {
     font-size: 1rem;
   }
+
+  /* ----------Photo Gallery Section Mobile/Small Device Responsive Added---------- */
+  .photo-gallery-section {
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 75px;
+  }
 }
 
 /* --------------------Tablet/Medium Device Responsive Added-------------------- */
@@ -63,5 +70,11 @@
   /* -----Right Banner Container----- */
   .right-banner-container {
     margin-right: 15px;
+  }
+
+  /* ----------Photo Gallery Section Tablet/Medium Device Responsive Added---------- */
+  .photo-gallery-section {
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 100px;
   }
 }

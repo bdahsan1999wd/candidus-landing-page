@@ -124,3 +124,19 @@ hr {
   font-weight: 300;
   line-height: 28px;
 }
+
+/* ----------Photo Gallery Section Styles Added---------- */
+.photo-gallery-section {
+  border: 1px solid blue;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 170px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.second-image {
+  grid-row: span 2;
+}
+.photo-gallery-section img {
+  width: 100%;
+}
