@@ -269,3 +269,15 @@ hr {
 .footer-social a {
   color: rgb(28, 28, 28);
 }
+
+/* ----------Hover Effect Styles Added---------- */
+.hover:hover {
+  transform: scale(1.5);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.hover-img:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
